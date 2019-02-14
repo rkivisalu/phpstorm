@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Rkivi
- * Date: 07/02/2019
- * Time: 09:20
- */
-<?php
 function pais()
 {
     echo '
@@ -24,6 +17,7 @@ function pais()
         <body>
     ';
 }
+
 function jalus(){
     echo '
     	<!-- Optional JavaScript -->
@@ -35,9 +29,11 @@ function jalus(){
 </html>
     ';
 }
+
 function soodus($hind, $soodusProtsent){
     return round($hind * ((100 - $soodusProtsent) / 100), 2);
 }
+
 function menu_element($liik, $andmed){
     echo '<div class="card m-3">
         <div class="card-header alert-dark">
@@ -60,6 +56,7 @@ function menu_element($liik, $andmed){
     echo '</div>';
     echo '</div>';
 }
+
 function menu($menu){
     echo '<div class="container-fluid text-center">
             <div class="row">

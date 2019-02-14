@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Rkivi
- * Date: 07/02/2019
- * Time: 09:20
- */
-<?php
 $praed = array(
     array(
         'nimetus' => 'Sealihapada ploomide ja aprikoosiga',
@@ -28,6 +21,7 @@ $praed = array(
         'kirjeldus' => 'hakklihakaste, lisand, salat, leib',
         'hind' => 1.30)
 );
+
 $supid = array(
     array(
         'nimetus' => 'Rassolnik',
@@ -37,13 +31,17 @@ $supid = array(
         'nimetus' => 'Borss',
         'kirjeldus' => 'supp, hapukoor, leib',
         'hind' => 1.30)
+
 );
+
 $magusad = array(
     array(
         'nimetus' => 'Rosinakisell vahukoorega',
         'kirjeldus' => '',
         'hind' => 1.05),
+
 );
+
 $joogid = array(
     array(
         'nimetus' => 'Mahl',
@@ -61,5 +59,6 @@ $joogid = array(
         'nimetus' => 'Keefir',
         'kirjeldus' => '',
         'hind' => 0.39)
+
 );
 ?>

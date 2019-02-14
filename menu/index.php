@@ -9,6 +9,7 @@ $mainTmpl->set('content', 'Menu App content');
 
 echo $mainTmpl->parse();
 
+
 //echo '<pre>';
 //print_r($maintmpl);
 //echo '<pre>'

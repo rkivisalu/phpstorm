@@ -8,4 +8,4 @@ $mainTmpl->set('title', 'Menu App');
 $contentTmpl = new Template('content');
 require_once 'controller.php';
 $mainTmpl->set('content', $contentTmpl->parse());
-echo $mainTmpl->parse(); 
+echo $mainTmpl->parse();
